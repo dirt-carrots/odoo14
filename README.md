@@ -1,6 +1,5 @@
-odoo14
-
-Odoo 14 Docker Files
+# odoo12
+Odoo 12 Docker Files
 
 Resources:
 
@@ -10,7 +9,8 @@ https://docs.docker.com/compose/install/
 
 https://docs.docker.com/desktop/
 
-To launch:
+To launch:  
+Configure Docker Desktop to use Linux Containers  
 docker-compose up -d
 
 If you forget the admin password or need to reset it, change the admin_passwrd in config/odoo.conf to something like "admin"
